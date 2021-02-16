@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>LP TEIP | FSE</title>
+<link rel="stylesheet" href="../css/style.css"/>
+<script src="https://kit.fontawesome.com/d32fbb83c8.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="../images/fse-logo.png"/>
+
+<link rel="stylesheet" href="style.css"/>
+
+</head> 
+
+<body>
+
+    <section class="main">
+
+        <!--navigation-->
+        <nav>
+            <!--logo-->
+            <a href="#" class="logo">
+                <img src="../images/fse-logo.png"/>
+            </a>
+            <!--menu-btn----------->
+            <input class="menu-btn" type="checkbox" id="menu-btn"/>
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </label>
+            <!--menu-->
+            <ul class="menu">
+                <li><a href="../index.html">ACCUEIL</a></li>
+                <li><a href="../cours.html">COURS</a></li>
+                <li><a href="../tp.html">TP</a></li>
+                <li><a href="../about.html">A PROPOS</a></li>
+                <li><a href="../contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <!--main-content-->
+        <div class="home-content">
+            <!--text-->
+            <div class="home-text">
+                <h1>TP Tableaux</h1>
+            </div>
+            <!--img-->
+            <div class="home-img">
+                <img src="../images/web design.png"/>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!--contenu----------------------->
+    <section class="services">
+        <div class="services-heading">
+            <h2>Tab 1</h2>
+        </div>
+    <div class="box-container">
+        <div class="box-tp">
+            <h1>Tableau simple</h1>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Abassi</td>
+            <td>Hamid</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>Hadadi</td>
+            <td>Kawtar</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>Fathi</td>
+            <td>Doha</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+    <h1>Tableau structuré en HTML</h1>
+    <table>
+        <caption>statistiques</caption>
+        <tr>
+            <th>Pages</th>
+            <th>PNb visites 2018</th>
+            <th>PNb visites 2019</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Page 1</td>
+            <td>200</td>
+            <td>250</td>
+            <td>450</td>
+        </tr>
+        <tr>
+            <td>Page 2</td>
+            <td>1000</td>
+            <td>2000</td>
+            <td>3000</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>1200</td>
+            <td>2250</td>
+            <td>3450</td>
+        </tr>
+    </table>
+
+    <h1>Autre exemple de Tableau structuré en HTML</h1>
+    <p>On suppose qu'il y a plusieurs lignes</p>
+    <table>
+        <caption>Facture de votre commande de livres</caption>
+        <tr>
+            <th>Date</th>
+            <th>Titre</th>
+            <th>Auteur</th>
+            <th>Quantité</th>
+            <th>Prix Unitaire</th>
+            <th>Prix Total</th>
+        </tr>
+        <tr>
+            <td>10/10/2013</td>
+            <td>Dictionnaire Arabe-English</td>
+            <td>Said Ramdani</td>
+            <td>3</td>
+            <td>32.00 Dhs</td>
+            <td>96.00 Dhs</td>
+        </tr>
+        <tr>
+            <td>10/03/2012</td>
+            <td>HTML: livre de poche</td>
+            <td>Tarik Fadili</td>
+            <td>2</td>
+            <td>38.00 Dhs</td>
+            <td>76.00 Dhs</td>
+        </tr>
+        <tr>
+            <td>10/01/2012</td>
+            <td>Exercices CSS</td>
+            <td>Soad Sany</td>
+            <td>5</td>
+            <td>29.90 Dhs</td>
+            <td>149.50 Dhs</td>
+        </tr>
+        <tr>
+            <th>Date</th>
+            <th>Désignation</th>
+            <th>Auteur</th>
+            <th>Quantité</th>
+            <th>Prix Unitaire</th>
+            <th>Prix Total</th>
+        </tr>
+    </table>
+        </div>
+    </div>
+
+
+
+        <div class="services-heading">
+            <h2>Tab 2</h2>
+        </div>
+        <div class="box-container">
+        <div class="box-tp">
+            <h1>Tableaux complexes</h1>
+
+    <h2>Fusionner des cellules en colonnes</h2>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th colspan="2">Telephone</th>
+        </tr>
+        <tr>
+            <td>Abassi Hamid</td>
+            <td>0663636363</td>
+            <td>0661636360</td>
+        </tr>
+    </table>
+
+    <h2>Fusionner des cellules en lignes</h2>
+    <table>
+        <tr>
+            <th>Nom</th>
+            <td>Abassi Hamid</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>0663636363</td>
+        </tr>
+        <tr>
+            <td>0661636360</td>
+        </tr>
+    </table>
+
+    <h2>Fission des cellules</h2>
+    <table>
+        <tr>
+            <td colspan="2">Colonnes 1 et 2 fusionnées</td>
+            <td>Colonne 3</td>
+            <td colspan="2">Colonnes 4 et 5 fusionnées</td>
+        </tr>
+        <tr>
+            <td>Colonne 1</td>
+            <td>Colonne 2</td>
+            <td>Colonne 3</td>
+            <td>Colonne 4</td>
+            <td>Colonne 5</td>
+        </tr>
+        <tr>
+            <td>Colonne 1</td>
+            <td colspan="3">Colonnes 2, 3 et 4 fusionnées</td>
+            <td >Colonne 5</td>
+        </tr>
+    </table>
+        </div>
+    </div>
+
+
+
+
+    </section>
+
+
+
+    <!--footer------------->
+    <footer>
+        <a href="http://fse.um5.ac.ma/">LP TEIP - FSE</a>
+        <p>Copyright &copy; 2021- All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>

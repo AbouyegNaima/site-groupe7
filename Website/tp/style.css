@@ -1,0 +1,156 @@
+/*tp liste - tp4_4*/
+.tp4_4 .nav ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333333;
+        }
+
+.tp4_4 .nav ul li {
+          float: left;
+        }
+
+.tp4_4 .nav ul li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 16px;
+          text-decoration: none;
+        }
+
+.tp4_4 .nav ul li a:hover {
+          background-color: #111111;
+        }
+
+
+/*tp tableau*/
+table,th,td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+/*tp css - model box*/
+#test {
+  background-color: lightgrey;
+  width: auto;
+  border: 50px solid green;
+  padding: 50px;
+  margin: 50px;
+  max-width: 600px;
+}
+
+#sect1 {
+  height: 200px;
+  max-width: 550px;
+   width: auto;
+  background-color: powderblue;
+}
+#sect2 {
+  height: 200px;
+  max-width: 50%;
+   width: auto;
+  background-color: powderblue;
+}
+#sect3 {
+  height: 200px;
+   width: auto;
+  min-width: 400px;
+  background-color: powderblue;
+}
+
+/*tp css - emplacement du style*/
+#body {
+  background-color: gray;
+  font-size: 130%;
+}
+
+.h2 {
+  color: #582900;
+}
+
+
+/*tp css - sélecteur d'élément*/
+/* tous les titres h1 s'affichent en rouge et centré */
+#select-elem  h1{
+  color: red;
+  text-align: center;
+}
+
+    /*les paragraphes en bleu*/
+#select-elem  p{
+  color: blue;
+  }  
+
+    /*Le texte des liens en vert et gras*/
+#select-elem a{
+      color: green;
+      font-weight: bold;
+    }
+
+
+
+
+/*tp css - sélécteur de classe*/
+/*tous les éléments HTML de la classe droite" 
+    seront alignés à droite avec un fond jaune*/
+
+.droite{
+  text-align: right;
+  background-color: yellow;
+}
+  /*tous les éléments HTML de la classe "large" 
+    ont une taille de 300%*/
+.large{
+  font-size: 300%;
+}
+
+
+/*tp css - selecteur d'id*/
+/* appliquer une couleur rouge uniquement sur remarque */
+#remarque{
+  color: red;
+}
+
+
+
+/*tp css - selecteur simple*/
+/* tous les éléments h2 */
+#select-simple h2 {
+  color: #FF0000;
+  text-align: center;
+}
+
+
+/* tous les éléments de la classe "info" */
+.info {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #00FF00;
+  opacity: .6;
+}
+
+/* l'élément identifié par "principal" */
+#principal {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #FF0000;
+  opacity: .7;
+}
+
+/* toutes les paragraphes et les titres h1  */
+#select-simple h1,#select-simple p {
+  color: #0000FF;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+

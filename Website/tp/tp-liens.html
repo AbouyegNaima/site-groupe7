@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>LP TEIP | FSE</title>
+<link rel="stylesheet" href="../css/style.css"/>
+<script src="https://kit.fontawesome.com/d32fbb83c8.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="../images/fse-logo.png"/>
+</head> 
+
+<body>
+
+    <section class="main">
+
+        <!--navigation-->
+        <nav>
+            <!--logo-->
+            <a href="#" class="logo">
+                <img src="../images/fse-logo.png"/>
+            </a>
+            <!--menu-btn----------->
+            <input class="menu-btn" type="checkbox" id="menu-btn"/>
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </label>
+            <!--menu-->
+            <ul class="menu">
+                <li><a href="../index.html">ACCUEIL</a></li>
+                <li><a href="../cours.html">COURS</a></li>
+                <li><a href="../tp.html">TP</a></li>
+                <li><a href="../about.html">A PROPOS</a></li>
+                <li><a href="../contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <!--main-content-->
+        <div class="home-content">
+            <!--text-->
+            <div class="home-text">
+                <h1>TP Liens</h1>
+            </div>
+            <!--img-->
+            <div class="home-img">
+                <img src="../images/web design.png"/>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!--contenu----------------------->
+    <section class="services">
+        <div class="services-heading">
+            <h2>Liens externes</h2>
+        </div>
+    <div class="box-container">
+        <div class="box-tp">
+            <h1>Les liens (links)</h1>
+    <section>
+        <h1>Les liens externes</h1>
+        <p>
+            Un lien externe est un lien d'une page d'un site et méne les utilisateurs vers un autre fichier d'un autre site.
+        </p>
+        <p>exemple de lien externe: <br>
+            <!--lien vers le site de la FSE -->
+            <a href="http://www.fse.um5.ac.ma/">Le site Web de la FSE</a>
+        </p>
+    </section>
+
+    <section>
+        <h1>Les attributs title et target</h1>
+        <p>
+            l'attribut terget indique où afficher la ressource liée. Il s'agit du nom (name), ou du mot-clé, d'un contexte de navigation.
+            Le mot-clé peut prendre des valeurs prédéfinies _blank, _parent, _self et _top pour afficher la cible, respectivement, dans une nouvelle fenêtre (ou un nouveau onglet), la fenêtre parent de la fenêtre en cours, la fenêtre elle-même et la fenêtre de plus haut niveau.
+        </p>
+        <p>exemple: <br>
+            <a href="http://www.fse.um5.ac.ma/" target="_blank" title="Site FSE">Le site Web de la FSE</a>
+        </p>
+    </section>
+        </div>
+    </div>
+
+        <div class="services-heading">
+            <h2>Liens internes</h2>
+        </div>
+        <div class="box-container">
+        <div class="box-tp">
+            <h1>Liens internes</h1>
+    <section id="lien1">
+        naviguer d'une page à l'autre dans un même dossier: <br>
+        <a href="#lien2" title="lien interne">Lien vers un fichier dans le même répértoire</a>
+
+        <a href="#lien2">
+            <div>DIV:Lien vers un fichier dans le même répértoire</div>
+        </a>
+    </section>
+        </div>
+    </div>
+
+
+        <div class="services-heading">
+            <h2>Liens internes</h2>
+        </div>
+        <div class="box-container">
+          <div class="box-tp">
+            <h1>Liens internes</h1>
+    <section id="lien2">
+        naviguer d'une page à l'autre dans un même dossier: <br>
+        <a href="#lien1" title="vers tp2-2_liens_internes.html">revenir à la page tp2-2_liens_internes.html</a>
+    </section>
+          </div>
+        </div>
+
+
+        <div class="services-heading">
+            <h2>Liens dans même page</h2>
+        </div>
+        <div class="box-container">
+          <div class="box-tp">
+            <header>
+        <h1>Liens vers es différentes sections de la même page </h1>
+        <ul style= "list-style-type: disc">
+            <li><a href="#s1">section1</a></li>
+            <li><a href="#s2">section2</a></li>
+            <li><a href="#s3">section3</a></li>
+            <li><a href="#s4">section4</a></li>
+            <li><a href="#s5">section5</a></li>
+            <li><a href="#s6">section6</a></li>
+        </ul>
+    </header>
+    <main>
+        <section id="s1">
+            <h2>Section 1</h2>
+            <p>...plusieurs lignes...</p>
+        </section>
+        <section id="s2">
+            <h2>Section 2</h2>
+            <p>...plusieurs lignes...</p>
+        </section>
+        <section id="s3">
+            <h2>Section 3</h2>
+            <p>...plusieurs lignes...</p>
+        </section>
+        <section id="s4">
+            <h2>Section 4</h2>
+            <p>...plusieurs lignes...</p>
+        </section>
+        <section id="s5">
+            <h2>Section 5</h2>
+            <p>...plusieurs lignes...</p>
+        </section>
+        <div>
+            <h2><a id="s6"> Section 6</a></h2>
+            <p>
+                <a href="#top">Vers le haut (#Top)</a><br>
+                <a href="#">Vers le haut (#)</a>
+            </p>
+        </div>
+    </main>
+    <div class="footer">
+        <hr>
+        <a href="mailto:fse.tice@gmail.com">contacter FSE-Rabat</a>
+    </div>
+          </div>
+        </div>
+
+
+
+    </section>
+
+
+
+    <!--footer------------->
+    <footer>
+        <a href="http://fse.um5.ac.ma/">LP TEIP - FSE</a>
+        <p>Copyright &copy; 2021- All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
